@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fields</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <header class="row container">
+        <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="" height="50">
+        </a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <a href="#" class="icons row">
+                        <i class="fi fi-rr-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icons row">
+                        <i class="fi fi-rr-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icons row">
+                        <i class="fi fi-rr-heart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icons row">
+                        <i class="fi fi-rr-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <section class="hero row flex container">
+        <div>
+            <h5>New</h5>
+            <h1>Shopping now!</h1>
+            <p>Buy the fresh groceries from here with free shipping delivery. We give you the best groceries so you can enjoy your activities at home. Only at Fresh Fields!
+            </p>
+            <a href="#" class="page-btn">Buy Now</a>
+        </div>
+        <div class="row"><img src="images/hero-img.svg" height="300" alt=""></div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- trend section -->
+    <section class="trend">
+        <div class="trend-content row flex container">
+            <div class="heading">
+                <h2>Trends</h2>
+                <a href="#" class="page-btn">Shop all</a>
+            </div>
+            <div class="swiper mySwiper trend-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog1.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Fish</h3>
+                            <p>Our fresh fish, caught daily, promises the finest flavors from the ocean.</p>
+                            <div class="price row">Rp50.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog2.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Chicken</h3>
+                            <p>The fresh chicken, raised responsibly, offers tender and juicy meat perfect for any dish.</p>
+                            <div class="price row">Rp60.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog3.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Beef</h3>
+                            <p>Our fresh beef comes from the finest farms, providing succulent cuts that guarantee a meal.</p>
+                            <div class="price row">Rp80.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog4.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Sausage</h3>
+                            <p>Our sausages crafted with the finest ingredients, provide a delightful addition to any meal.</p>
+                            <div class="price row">Rp45.000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-dot row">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of trend section -->
+
+    <!-- category section -->
+    <section class="category">
+        <div class="category-cards column container">
+            <a href="#" class="c-card">
+                <div class="row"><img src="images/category1.png" alt="" width="90" height="90"></div>
+                <h3>Vegetable</h3>
+            </a>
+            <a href="#" class="c-card">
+                <div class="row"><img src="images/category2.png" alt="" width="90" height="90"></div>
+                <h3>Meat</h3>
+            </a>
+            <a href="#" class="c-card">
+                <div class="row"><img src="images/category3.png" alt="" width="90" height="90"></div>
+                <h3>Milk</h3>
+            </a>
+            <a href="#" class="c-card">
+                <div class="row"><img src="images/category4.png" alt="" width="90" height="90"></div>
+                <h3>Cooking Oil</h3>
+            </a>
+        </div>
+    </section>
+    <!-- end of category section -->
+
+    <!-- products -->
+    <section class="products">
+        <div class="p-card">
+            <div class="row flex container">
+                <div class="row"><img src="images/product1.png" alt=""></div>
+                <div>
+                    <h2>Experience Ultimate Freshness with Us</h2>
+                    <p>Our commitment to quality ensures that you receive only the best and freshest products, perfect for any culinary creation. Fresh Fields also offers a wide variety of essentials for your cooking needs, including spices, rice, flour, sauces, and oils. Trust Fresh Fields to provide you with premium ingredients that enhance every meal and bring delight to your kitchen.</p>
+                    <a href="#" class="page-btn active">Explore more</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <div class="row flex container">
+                <div>
+                    <h2>Experience Ultimate Freshness with Us</h2>
+                    <p>Our commitment to quality ensures that you receive only the best and freshest products, perfect for any culinary creation. Fresh Fields also offers a wide variety of essentials for your cooking needs, including spices, rice, flour, sauces, and oils. Trust Fresh Fields to provide you with premium ingredients that enhance every meal and bring delight to your kitchen.</p>
+                    <a href="#" class="page-btn active">Explore more</a>
+                </div>
+                <div class="row"><img src="images/product2.png" alt=""></div>
+            </div>
+        </div>
+        <div class="p-card">
+            <div class="row flex container">
+                <div class="row"><img src="images/product3.png" alt=""></div>
+                <div>
+                    <h2>Experience Ultimate Freshness with Us</h2>
+                    <p>Our commitment to quality ensures that you receive only the best and freshest products, perfect for any culinary creation. Fresh Fields also offers a wide variety of essentials for your cooking needs, including spices, rice, flour, sauces, and oils. Trust Fresh Fields to provide you with premium ingredients that enhance every meal and bring delight to your kitchen.</p>
+                    <a href="#" class="page-btn active">Explore more</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <div class="row flex container">
+                <div>
+                    <h2>Experience Ultimate Freshness with Us</h2>
+                    <p>Our commitment to quality ensures that you receive only the best and freshest products, perfect for any culinary creation. Fresh Fields also offers a wide variety of essentials for your cooking needs, including spices, rice, flour, sauces, and oils. Trust Fresh Fields to provide you with premium ingredients that enhance every meal and bring delight to your kitchen.</p>
+                    <a href="#" class="page-btn active">Explore more</a>
+                </div>
+                <div class="row"><img src="images/product4.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- end of products section -->
+    
+    <!-- bestseller section -->
+    <section class="bestseller">
+        <div class="bestseller-content row flex container">
+            <div class="heading">
+                <h2>Bestseller</h2>
+                <a href="#" class="page-btn">Shop all</a>
+            </div>
+            <div class="swiper mySwiper trend-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog4.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Sausage</h3>
+                            <p>Our sausages crafted with the finest ingredients, provide a delightful addition to any meal.</p>
+                            <div class="price row">Rp45.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog3.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Beef</h3>
+                            <p>Our fresh beef comes from the finest farms, providing succulent cuts that guarantee a meal.</p>
+                            <div class="price row">Rp80.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog2.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Chicken</h3>
+                            <p>The fresh chicken, raised responsibly, offers tender and juicy meat perfect for any dish.</p>
+                            <div class="price row">Rp60.000</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img row">
+                            <img src="images/catalog1.png" alt="">
+                            <a href="#" class="page-btn row">Add to cart</a>
+                        </div>
+                        <div class="sw-content">
+                            <h3>Fish</h3>
+                            <p>Our fresh fish, caught daily, promises the finest flavors from the ocean.</p>
+                            <div class="price row">Rp50.000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-dot row">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of bestseller section -->
+
+    <!-- blog section -->
+    <section class="blog container">
+        <h1>Blog</h1>
+        <div class="blog-cards column">
+            <a href="#" class="b-card">
+                <div class="row"><img src="images/blog1.jpg" alt=""></div>
+                <div class="b-card-content">
+                    <h3>The Benefits of Shopping from Home</h3>
+                    <hr>
+                    <p>Shopping from home offers numerous advantages, allowing you to freely choose and add items to your cart without the need to leave the comfort of your home. No more standing in long lines or dealing with crowded stores, you can enjoy a stress-free shopping experience from your couch.</p>
+                </div>
+            </a>
+            <a href="#" class="b-card">
+                <div class="row"><img src="images/blog2.jpg" alt=""></div>
+                <div class="b-card-content">
+                    <h3>Competitive Pricing at Fresh Fields E-Grocery</h3>
+                    <hr>
+                    <p>Fresh Fields e-grocery provides competitive prices that rival those of traditional supermarkets. You can enjoy high-quality products without the high price tags, making it easier to stay within your budget while still accessing a wide range of fresh and essential items.</p>
+                </div>
+            </a>
+            <a href="#" class="b-card">
+                <div class="row"><img src="images/blog3.jpg" alt=""></div>
+                <div class="b-card-content">
+                    <h3>Convenience and Quality Time with Fresh Fields</h3>
+                    <hr>
+                    <p>With Fresh Fields you can spend more time cooking delicious meals at home and enjoying quality time with your loved ones. The seamless shopping experience allows you to quickly find and buy the ingredients you need, giving you more time to focus on what matters most.</p>
+                </div>
+            </a>
+        </div>
+
+        <a href="#" class="page-btn active row">See all</a>
+    </section>
+    <!-- end of blog section -->
+
+    <!-- subscribe section -->
+    <section class="subscribe">
+        <div class="subscribe-content row container">
+            <div>
+                <h2>our products are 100% fresh. Providing the best one for your meal.</h2>
+                <p>Subscribe for latest promotions and interesting offers.</p>
+                <form action="" class="row">
+                    <input type="email" name="" id="" placeholder="Your email address">
+                    <button type="submit" class="page-btn active">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer row container">
+            <div class="footer-content">
+                <a href="#" class="logo"><img src="images/logo-light.png" height="100" alt=""></a>
+                <p>Explore our extensive catalog featuring a premium selection of fresh fish, chicken, beef, and sausages. Dive into our catalog to discover these fresh, high-quality products and elevate your kitchen creations.</p>
+            </div>
+            <div>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Quality</a></li>
+                    <li><a href="#">Track order</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Our values</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Information</a></li>
+                </ul>
+            </div>
+        </div>
+        <br/>
+        <div class="rights-media row container">
+            <p class="copy-right">&copy; 2024. All rights reserved lia kim.</p>
+            <div class="media-links row">
+                <a href="#" class="row">
+                    <i class="fi fi-brands-github"></i>
+                </a>
+                <a href="#" class="row">
+                    <i class="fi fi-brands-pinterest"></i>
+                </a>
+                <a href="#" class="row">
+                    <i class="fi fi-brands-spotify"></i>
+                </a>
+                <a href="#" class="row">
+                    <i class="fi fi-brands-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
